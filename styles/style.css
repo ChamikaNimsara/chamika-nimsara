@@ -40,10 +40,29 @@ a {
     justify-content: center;
 }
 
-.navbar-outer .navbar-inner .links {
+/* .navbar-outer .navbar-inner .links {
   width: 100%;
   justify-content: center;
   margin-left: 28%;
+} */
+
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  .navbar-outer .navbar-inner .links {
+    width: 100%;
+    justify-content: center;
+    margin-left: 28%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .navbar-outer .navbar-inner .links {
+    width: 100%;
+    justify-content: center;
+    margin-left: 10%;
+  }
 }
 
 .navbar-outer .navbar-inner .links a {
@@ -149,7 +168,7 @@ p {
 }
 
 .project-text {
-  height: 140px;
+  height: auto;
   text-align: justify;
 }
 
@@ -163,12 +182,14 @@ p {
 
 .col2 {
   width: 70%;
-  padding: 100px 0;
+  padding: 10% 0;
 }
 
 .project1-image {
-  width: 360px;
-  height: 480px;
+  /* width: 360px;
+  height: 480px; */
+  width: 100%;
+  height: width / 3 * 4;
   border-radius: 10px;
 }
 
@@ -178,12 +199,12 @@ p {
 
 .col3 {
   width: 60%;
-  padding: 200px 0;
+  padding: 20% 0;
 }
 
 .project2-image {
-  width: 500px;
-  height: 250px;
+  width: 90%;
+  height: width / 2;
   margin: 5%;
   border-radius: 10px;
 }
@@ -243,7 +264,7 @@ li {
 
 .contact-heading {
   position: absolute;
-  width: 800px;
+  width: 55%;
   height: 250px;
   border-radius: 45px;
   bottom: 25%;
