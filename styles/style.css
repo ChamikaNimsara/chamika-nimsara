@@ -154,10 +154,23 @@ h3 {
   color: #000000;
 }
 
+.button3 {
+  margin: 2%;
+  width: 427px;
+  background-color: none;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.button3:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 #about {
   text-align: center;
   padding: 3%;
-  height: 1000px;
+  height: 1100px;
 }
 
 p {
@@ -300,4 +313,10 @@ li {
 
 .contact-body a {
   color: #FF7000;
+}
+
+.about-image {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px -4px grey;
 }
