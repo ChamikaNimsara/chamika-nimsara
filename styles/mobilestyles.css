@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media (max-width: 1028px) {
   /* For mobile phones: */
   .navbar-outer .navbar-inner .links {
     width: 100%;
@@ -7,7 +7,7 @@
   }
 
   .container1 {
-    height: 1700px;
+    height: 1420px;
   }
 
   .head1 {
@@ -15,25 +15,31 @@
   }
 
   .head2 {
-    margin-left: 25%;
+    margin-left: 27%;
   }
 
   .heading1 {
+    text-align: center;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .heading2 {
+    text-align: center;
     color: #FF7000;
     font-family: 'Sacramento', cursive;
     font-weight: bold;
-    font-size: 120px;
+    font-size: 80px;
   }
 
   #about {
     text-align: center;
     padding: 3%;
     height: 1700px;
+  }
+
+  .title-image {
+    margin-top: 15%;
   }
 }
