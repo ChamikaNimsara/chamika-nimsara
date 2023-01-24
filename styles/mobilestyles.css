@@ -7,7 +7,7 @@
   }
 
   .container1 {
-    height: 800px;
+    height: 1700px;
   }
 
   .head1 {
@@ -29,5 +29,11 @@
     font-family: 'Sacramento', cursive;
     font-weight: bold;
     font-size: 120px;
+  }
+
+  #about {
+    text-align: center;
+    padding: 3%;
+    height: 1700px;
   }
 }
