@@ -1,0 +1,303 @@
+.row {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.navbar-outer {
+    position: sticky;
+    width: 100%;
+    height: 170px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    top: -110px;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.scroll-up .navbar-outer{
+  transition: 1s;
+		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+	}
+
+.scroll-down .navbar-outer{
+  transition: 1s;
+  		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+  	}
+
+.navbar-outer .navbar-inner {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: center;
+}
+
+.navbar-outer .navbar-inner .links {
+  width: 100%;
+  justify-content: center;
+  margin-left: 28%;
+}
+
+.navbar-outer .navbar-inner .links a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #eee;
+    border: 1px solid transparent;
+    transition: all 200ms ease-in-out;
+    font-size: 24px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.navbar-outer .navbar-inner .links a.active {
+  background-color: #FF7000;
+  color: #000000;
+  transition: 2 ease background-color;
+  border-radius: 10px;
+}
+
+#nav1:hover {
+  color: #B2B2B2;
+  font-size: 25px;
+}
+
+.container1 {
+  background-color: #000000;
+  height: 40%;
+  padding-top: 5.5%;
+}
+
+.heading1 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading2 {
+  color: #FF7000;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.title-image {
+  height: 600px;
+  width: 600px;
+}
+
+.head1 {
+  margin-left: 25%;
+  margin-top: 10%;
+  width: 400px;
+
+}
+
+.head2 {
+  margin-left: 20%;
+}
+
+.button1 {
+  margin: 2%;
+  width: 200px;
+  background-color: none;
+  border-color: #FF7000;
+  color: #FF7000;
+}
+
+.button1:hover {
+  background-color: #FF7000;
+  color: #000000;
+}
+
+.button2 {
+  margin: 2%;
+  width: 200px;
+  background-color: none;
+  border-color: #0966c2;
+  color: #0966c2;
+}
+
+.button2:hover {
+  background-color: #0966c2;
+  color: #000000;
+}
+
+.button3 {
+  margin: 2%;
+  width: 427px;
+  background-color: none;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.button3:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#about {
+  text-align: center;
+  padding: 3%;
+
+}
+
+p {
+  padding: 0 8% 0 8%;
+  font-size: 20px;
+}
+
+#projects {
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  padding: 3%;
+}
+
+.project-text {
+  height: auto;
+  text-align: justify;
+}
+
+.project-btn {
+  width: 180px;
+}
+
+.col1 {
+  width: 30%;
+}
+
+.col2 {
+  width: 70%;
+  padding: 10% 0;
+}
+
+.project1-image {
+  /* width: 360px;
+  height: 480px; */
+  width: 100%;
+  height: width / 3 * 4;
+  border-radius: 10px;
+}
+
+.col4 {
+  width: 40%;
+}
+
+.col3 {
+  width: 60%;
+  padding: 20% 0;
+}
+
+.project2-image {
+  width: 90%;
+  height: width / 2;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+#expertise {
+  height: 1000px;
+  text-align: center;
+  padding: 3%;
+}
+
+.exp {
+  background-color: white;
+	border-radius: 15px;
+	box-shadow: 0 8px 32px -4px lightblue;
+	width: 100%;
+	padding: 3%;
+	margin: 1%;
+	float: left;
+}
+
+.exp-images {
+  width: 70px;
+  height: 70px;
+  margin: 3%;
+}
+
+ul {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  text-align: left;
+}
+
+li {
+  padding: 5px;
+}
+
+#contact {
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 800px;
+  position: relative;
+}
+
+.bg-image {
+  /* width: 1500px;
+  height: 500px; */
+  width: 100%;
+}
+
+.contact-heading {
+  position: absolute;
+  width: 55%;
+  height: 250px;
+  border-radius: 45px;
+  bottom: 25%;
+  right: 23%;
+  background-color: #000000;
+  color: white;
+  box-shadow: 0 8px 32px -4px grey;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 1;
+}
+
+.contact-body {
+  position: absolute;
+  bottom: -10%;
+  width: 100%;
+  z-index: 200;
+  background-color: #000000;
+  color: #FF7000;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.contact-body i {
+  font-size: 50px;
+  margin:  0 50px 0 50px;
+}
+
+.contact-body a {
+  color: #FF7000;
+}
+
+.about-image {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px -4px grey;
+}
